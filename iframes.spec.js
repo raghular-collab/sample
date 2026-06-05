@@ -19,3 +19,5 @@ test('handling frames 2',async({page})=>{
     const frame1 = page.frameLocator('iframe[src*="new-tab-sample.php"]').nth(1);
     await frame1.locator('.external-link').click();
 })
+
+console.log("in testing branch");
