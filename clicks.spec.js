@@ -14,4 +14,6 @@ test('clicks',async({page})=>{
     //click
     await page.locator('#dynamicClickBtn').click();
     await page.waitForTimeout(2000);
+
+    console.log("in main branch");
 })
